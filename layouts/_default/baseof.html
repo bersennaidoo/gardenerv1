@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+    {{ partial "spinnerp/spinnerp.html" . }}
+    {{ partial "topnavp/topnavp.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+</body>
+</html>
